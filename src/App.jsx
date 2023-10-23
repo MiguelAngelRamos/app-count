@@ -4,9 +4,21 @@ import { CounterApp } from './components/CounterApp'
 function App() {
   return (
     <>
-      <h1>Componete App - Componente Principal</h1>
+      <CounterApp 
+        title="Contador de Carrito" 
+        subTitle="cantidad de productos en el carrito"
+      />
+
+      <CounterApp
+       title="Contador de vistas"
+       subTitle="cantidad de usuarios en el sitio"
+        />
+      {/* 
       <CounterApp/>
+      <CounterApp/> */}
     </>
   )
 }
 export default App
+// control + k + c "comentar"
+// control + k + u
