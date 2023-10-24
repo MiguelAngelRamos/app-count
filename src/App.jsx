@@ -9,10 +9,10 @@ function App() {
         subTitle="cantidad de productos en el carrito"
       />
 
-      <CounterApp
+      {/* <CounterApp
        title="Contador de vistas"
        subTitle="cantidad de usuarios en el sitio"
-        />
+        /> */}
       {/* 
       <CounterApp/>
       <CounterApp/> */}
